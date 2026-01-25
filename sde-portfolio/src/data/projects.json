@@ -1,0 +1,23 @@
+[
+  {
+    "title": "CLI Budget Tracker",
+    "description": "A Python CLI app to track income and expenses efficiently.",
+    "tech": ["Python"],
+    "github": "https://github.com/yourusername/budget-tracker",
+    "demo": ""
+  },
+  {
+    "title": "Mini ToDo App",
+    "description": "A web-based task manager using JavaScript, HTML, and CSS.",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/yourusername/todo-app",
+    "demo": ""
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "A dashboard that fetches weather info from OpenWeatherMap API.",
+    "tech": ["JavaScript", "API"],
+    "github": "https://github.com/yourusername/weather-dashboard",
+    "demo": ""
+  }
+]
