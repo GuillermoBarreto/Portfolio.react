@@ -14,10 +14,10 @@
     "demo": ""
   },
   {
-    "title": "Weather Dashboard",
-    "description": "A dashboard that fetches weather info from OpenWeatherMap API.",
+    "title": "CreatorVerse App",
+    "description": "CreatorVerse is a React app where you can discover, organize, and manage your favorite content creators. From Twitch streamers to YouTube channels or TikTok stars, CreatorVerse lets you add, view, edit, and delete creators with ease. The app uses Supabase as the backend database and supports full CRUD functionality.",
     "tech": ["JavaScript", "API"],
-    "github": "https://github.com/yourusername/weather-dashboard",
+    "github": "https://github.com/GuillermoBarreto/CreatorVerse",
     "demo": ""
   }
 ]
