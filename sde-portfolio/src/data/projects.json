@@ -1,22 +1,34 @@
 [
   {
     "title": "WGU-App",
-    "description": "a personal project developed for Western Governors University coursework..",
+    "description": "A Swift iOS experience for managing WGU coursework, schedules, and tasks on the go.",
+    "highlights": [
+      "Built reusable SwiftUI components for fast iteration.",
+      "Designed for offline access and quick updates."
+    ],
     "tech": ["Swift"],
     "github": "https://github.com/GuillermoBarreto/WGUApp",
     "demo": ""
   },
   {
     "title": "Pomodoro App",
-    "description": "A modern Pomodoro timer built with Python and Tkinter. Track your work and break sessions efficiently with a customizable timer and notifications.",
+    "description": "A modern Pomodoro timer built with Python and Tkinter to improve focus and productivity.",
+    "highlights": [
+      "Custom session presets with desktop notifications.",
+      "Simple UX that keeps users in flow."
+    ],
     "tech": ["Python", "Tkinter"],
     "github": "https://github.com/GuillermoBarreto/Pomodoro.App",
     "demo": ""
   },
   {
     "title": "CreatorVerse App",
-    "description": "CreatorVerse is a React app where you can discover, organize, and manage your favorite content creators. From Twitch streamers to YouTube channels or TikTok stars, CreatorVerse lets you add, view, edit, and delete creators with ease. The app uses Supabase as the backend database and supports full CRUD functionality.",
-    "tech": ["JavaScript", "API"],
+    "description": "A React + Supabase app for discovering, organizing, and managing favorite content creators.",
+    "highlights": [
+      "Full CRUD workflow with Supabase data storage.",
+      "Responsive UI with quick search and editing."
+    ],
+    "tech": ["React", "Supabase", "JavaScript"],
     "github": "https://github.com/GuillermoBarreto/CreatorVerse",
     "demo": ""
   }
