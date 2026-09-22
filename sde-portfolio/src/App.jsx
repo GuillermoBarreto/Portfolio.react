@@ -18,7 +18,7 @@ function App() {
           <span className="text-base font-semibold tracking-tight">
             Guillermo Barreto
           </span>
-          <nav className="flex items-center gap-4 text-sm font-medium text-slate-600">
+          <nav aria-label="Primary" className="flex items-center gap-4 text-sm font-medium text-slate-600">
             {navLinks.map((link) => (
               <a
                 key={link.href}
