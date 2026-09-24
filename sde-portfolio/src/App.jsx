@@ -9,6 +9,7 @@ function App() {
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
+    { label: "Blog", href: "https://gb-blog.vercel.app", external: true },
   ];
 
   return (
@@ -24,6 +25,9 @@ function App() {
                 key={link.href}
                 href={link.href}
                 className="transition hover:text-slate-900"
+                {...(link.external
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
               >
                 {link.label}
               </a>
