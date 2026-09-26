@@ -26,7 +26,11 @@ function App() {
                 href={link.href}
                 className="transition hover:text-slate-900"
                 {...(link.external
-                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  ? {
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      "aria-label": `${link.label} (opens in new tab)`,
+                    }
                   : {})}
               >
                 {link.label}
